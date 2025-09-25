@@ -1,6 +1,6 @@
 .DS_Store
 age.agekey
-
+.swp
 __pycache__
 .envrc
 kubeconfig
