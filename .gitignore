@@ -1,0 +1,6 @@
+.DS_Store
+age.agekey
+
+__pycache__
+.envrc
+kubeconfig
