@@ -4,3 +4,5 @@ age.agekey
 __pycache__
 .envrc
 kubeconfig
+*.crt
+*.key
