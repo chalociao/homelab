@@ -28,18 +28,18 @@ spec:
     grafana:
       adminPassword: paddy
       ingress:
-      enabled: true
-      ingressClassName: traefik
+        enabled: true
+        ingressClassName: traefik
 
-      labels: {}
+        labels: {}
 
-      hosts:
-        - grs.wolkenwerk.org
+        hosts:
+          - grs.wolkenwerk.org
 
-      ## TLS configuration for grafana Ingress
-      ## Secret must be manually created in the namespace
-      ##
-      tls: []
-      # - secretName: grafana-general-tls
-      #   hosts:
-      #   - grafana.example.com
+        ## TLS configuration for grafana Ingress
+        ## Secret must be manually created in the namespace
+        ##
+        tls: []
+        # - secretName: grafana-general-tls
+        #   hosts:
+        #   - grafana.example.com
