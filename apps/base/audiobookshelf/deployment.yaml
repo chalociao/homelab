@@ -20,3 +20,10 @@ spec:
                 name: audiobookshelf-configmap
           ports:
             - containerPort: 3005
+          volumeMounts:
+          - name: audiobookshelf-data
+            mountPath: /etc/audiobookshelf/data
+      volumes:
+        - name: audiobookshelf-data
+          persistentVolumeClaim:
+            claimName: audiobookshelf-data-pvc
