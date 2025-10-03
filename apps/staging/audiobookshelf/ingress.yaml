@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: audiobookshelf.wolkenwerk.org 
+    - host: audiobooks.wolkenwerk.org 
       http:
         paths:
           - backend:
