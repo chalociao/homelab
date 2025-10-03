@@ -4,7 +4,7 @@ namespace: audiobookshelf
 resources:
   - ../../base/audiobookshelf/
   - secret.yaml
-#  - cloudflare.yaml
+  - cloudflare.yaml
   # - cloudflare-secret.yaml
   # - linkding-container-env-secret.yaml
   # - ingress.yaml
