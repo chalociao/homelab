@@ -9,3 +9,4 @@ resources:
   - service.yaml
   - storage.yaml
   - deployment.yaml
+  - cloudflare.yaml
